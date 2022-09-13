@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input{
+            display: block;
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="fullName">Full Name</label>
+        <input type="text" placeholder="Full Name" id="fullName" class="input" name="username" required>
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" class="input" name="useremail">
+        
+        <label for="mobile">Contact No</label>
+        <input type="number" id="mobile" class="input" name="usercontact">
+        <p>Choose Your Gender</p>
+        <label for="m">Male</label>
+        <input type="radio" id="m" name="gender" checked>
+        <label for="f">Female</label>
+        <input type="radio" id="f" name="gender">
+        <label for="o">Other</label>
+        <input type="radio" id="o" name="gender">
+
+        <input type="time" class="input">
+        <input type="date" class="input">
+        <input type="datetime-local" class="input">
+        <input type="file" class="input">
+        <input type="submit">
+        <input type="button" value="Fetch Data">
+        <input type="reset" >
+    </form>
+</body>
+</html>
